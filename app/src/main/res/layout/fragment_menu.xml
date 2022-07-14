@@ -9,15 +9,13 @@
 
     <Button
         android:id="@+id/start_game_button"
-        android:layout_width="298dp"
-        android:layout_height="114dp"
+        android:layout_width="371dp"
+        android:layout_height="135dp"
+        android:layout_marginBottom="104dp"
         android:text="@string/start_button_text"
-        android:textSize="34sp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -36,8 +36,8 @@
 
     <TextView
         android:id="@+id/currentText"
-        android:layout_width="384dp"
-        android:layout_height="118dp"
+        android:layout_width="376dp"
+        android:layout_height="310dp"
         android:layout_marginTop="56dp"
         android:text="@string/start_game_text"
         android:textAlignment="center"
@@ -49,12 +49,12 @@
 
     <Button
         android:id="@+id/guess_button"
-        android:layout_width="198dp"
+        android:layout_width="329dp"
         android:layout_height="61dp"
         android:layout_marginTop="44dp"
         android:text="@string/try_button_text"
         android:textAlignment="center"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,11 +62,11 @@
 
     <Button
         android:id="@+id/restart_button"
-        android:layout_width="247dp"
-        android:layout_height="61dp"
+        android:layout_width="331dp"
+        android:layout_height="57dp"
         android:layout_marginTop="8dp"
         android:text="@string/start_new_game_text"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/guess_button" />
@@ -79,7 +79,7 @@
         android:layout_marginBottom="8dp"
         android:text="@string/plus"
         android:textAlignment="center"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/seekBar"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -91,17 +91,18 @@
         android:layout_marginBottom="8dp"
         android:text="@string/minus"
         android:textAlignment="center"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/seekBar"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/guessesText"
-        android:layout_width="85dp"
-        android:layout_height="20dp"
+        android:layout_width="139dp"
+        android:layout_height="39dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
         android:text="@string/numberOfGuesses"
+        android:textAlignment="textEnd"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
